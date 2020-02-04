@@ -1,0 +1,2 @@
+class Parade < ApplicationRecord
+end

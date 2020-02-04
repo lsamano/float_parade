@@ -1,0 +1,9 @@
+<h1>All the Balloons</h1>
+<ul>
+  <% @balloons.each do |balloon| %>
+  <li><%= link_to balloon.name, balloon_path(balloon) %> <%= link_to "Delete", balloon_path(balloon), method: :delete %>
+  </li>
+  <% end %>
+</ul>
+
+balloon_path(balloon), method: :delete

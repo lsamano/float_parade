@@ -1,0 +1,13 @@
+<h1>Edit This Balloon</h1>
+<%= form_for @balloon do |f| %>
+<%= f.label :name %>
+<%= f.text_field :name %>
+<%= f.label :color %>
+<%= f.text_field :color %>
+<%= f.label :size %>
+<%= f.number_field :size %>
+
+<%= f.label :parade_id %>
+<%= f.collection_select :parade_id, @parades, :id, :name %>
+<%= f.submit %>
+<% end %>

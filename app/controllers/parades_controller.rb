@@ -1,0 +1,2 @@
+class ParadesController < ApplicationController
+end
