@@ -8,3 +8,4 @@ Model/Table => Routes => Controller => View
 
 index => show => new form => create => edit form => update
 => destroy
+# float_parade
